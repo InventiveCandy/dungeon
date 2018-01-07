@@ -17,6 +17,8 @@ class Main:
 
         pygame.init()
 
+        self.display = pygame.display.set_mode(constants.DISPLAY_SIZE)
+
     def run(self):
 
         pass
