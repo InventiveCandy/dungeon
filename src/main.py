@@ -18,6 +18,7 @@ class Main:
         pygame.init()
 
         self.display = pygame.display.set_mode(constants.DISPLAY_SIZE)
+        self.caption = pygame.display.set_caption("dungeon")
 
     def run(self):
 
