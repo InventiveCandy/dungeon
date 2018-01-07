@@ -24,7 +24,19 @@ class Main:
 
     def run(self):
 
-        pass
+        game_exit = False
+
+        while not game_exit:
+
+            for event in pygame.event.get():
+
+                if event.type == QUIT:
+                    game_exit = True
+
+            self.display.fill(constants.WHITE)
+
+            pygame.display.flip()
+            self.clock.tick(60)
 
 
 if __name__ == "__main__":
