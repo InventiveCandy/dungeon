@@ -20,6 +20,8 @@ class Main:
         self.display = pygame.display.set_mode(constants.DISPLAY_SIZE)
         pygame.display.set_caption("Dungeon")
 
+        self.clock = pygame.time.Clock()
+
     def run(self):
 
         pass
