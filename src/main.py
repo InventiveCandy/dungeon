@@ -15,7 +15,7 @@ class Main:
 
     def __init__(self):
 
-        pass
+        pygame.init()
 
     def run(self):
 
@@ -26,3 +26,5 @@ if __name__ == "__main__":
 
     game = Main()
     game.run()
+
+    pygame.quit()
